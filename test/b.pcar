@@ -1,0 +1,54 @@
+NAME : MiniCaRS6
+TYPE : CaRS
+COMMENT : Asymmetric small instance for the CaRS Problem
+DIMENSION : 6
+CARS_NUMBER : 3
+EDGE_WEIGHT_TYPE : EXPLICIT
+EDGE_WEIGHT_FORMAT : FULL_MATRIX
+EDGE_WEIGHT_SECTION
+0
+   0   1   5   4   3   1
+   1   0   3   2   7   2
+   5   3   0   9   9  10
+   4   2   9   0  10   7
+   3   7   9  10   0   8
+   1   2  10   7   8   0
+1
+   0   1   8   8   8   8
+   1   0   7   4   1   7
+   8   7   0   7   1  12
+   8   4   7   0  13   4
+   8   1   1  13   0   1
+   8   7  12   4   1   0
+2
+   0   1   5   5   5   5
+   1   0   1   6   9   1
+   5   1   0   1   8   8
+   5   6   1   0   1   1
+   5   9   8   1   0   1
+   5   1   8   1   1   0
+RETURN_RATE_SECTION
+0
+    0   1   1   8  10  99  
+   10   0   1   8  10  99
+   10   1   0   8  10  99
+   10   1   1   0  10  99
+   10   1   1   8   0  99
+   10   1   1   8  10   0  
+1
+   0  99   2   3   3   3  
+   2   0   2   3   3   3  
+   2  99   0   3   3   3  
+   2  99   2   0   3   3  
+   2  99   2   3   0   3  
+   2  99   2   3   3   0 
+2
+   0   1  99   4   2   2  
+   1   0  99   4   2   2  
+   1   1   0   4   2   2  
+   1   1  99   0   2   2  
+   1   1  99   4   0   2  
+   1   1  99   4   2   0  
+BONUS_SATISFACTION_SECTION 
+  81  68  35  73  27  31
+EOF
